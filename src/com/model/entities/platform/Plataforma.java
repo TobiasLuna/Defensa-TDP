@@ -1,5 +1,11 @@
 package com.model.entities.platform;
 
-public abstract class Plataforma {
+import com.model.entities.Entidad;
 
+public abstract class Plataforma extends Entidad {
+
+    public Plataforma(float x, float y) {
+        super(x, y);
+        // TODO Auto-generated constructor stub
+    }
 }

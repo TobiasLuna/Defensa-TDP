@@ -1,5 +1,8 @@
 package com.graphic.factory;
 
-public abstract class DominioDeAplicacion {
-
+public class DominioDeAplicacion {
+  public DominioDeAplicacion() {
+        // TODO Constructor vacío, se puede inicializar recursos o configuraciones si es
+        // necesario
+    }
 }

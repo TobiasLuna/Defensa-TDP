@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Ranking {
     private int maxRecords;
-    private BufferedReader BR;
+    protected BufferedReader BR;
     private List<RankingEntrada> register;
 
     public Ranking(String file, int maxRecords) {

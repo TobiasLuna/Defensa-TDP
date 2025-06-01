@@ -1,5 +1,5 @@
 package com.graphic.observer;
 
-public class ObserverGrafico {
-
+public interface ObserverGrafico {
+     public void update(double x, double y);
 }
